@@ -23,7 +23,7 @@ cfg-if = "0.1"
 num-traits = "0.2"
 xoroshiro128 = "0.3"
 seahash = "3.0"
-fasthash-sys = { version = "0.3.2", path = "../fasthash-sys" }
+fasthash-sys = { version = "0.3.2", path = "../fasthash-sys", default-features = false }
 
 [dev-dependencies]
 lazy_static = "1.3"
